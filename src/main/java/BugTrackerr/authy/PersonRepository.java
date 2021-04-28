@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

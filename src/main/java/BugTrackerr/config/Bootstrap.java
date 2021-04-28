@@ -1,9 +1,9 @@
-package edu.logintegra.springsecuritydemo.config;
+package BugTrackerr.config;
 
-import edu.logintegra.springsecuritydemo.auth.Authority;
-import edu.logintegra.springsecuritydemo.auth.AuthorityRepository;
-import edu.logintegra.springsecuritydemo.auth.PersonService;
-import edu.logintegra.springsecuritydemo.enums.AuthorityName;
+import BugTrackerr.authy.Authority;
+import BugTrackerr.authy.AuthorityRepository;
+import BugTrackerr.authy.PersonService;
+import BugTrackerr.enums.AuthorityName;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +20,7 @@ public class Bootstrap implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() {
-        System.out.println("Rozpoczynamy przygotowywanie aplikacji...");
+        System.out.println("Przygotowywanie aplikacji");
 
         prepareAuthorities();
 

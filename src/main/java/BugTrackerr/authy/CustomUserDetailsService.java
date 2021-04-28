@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

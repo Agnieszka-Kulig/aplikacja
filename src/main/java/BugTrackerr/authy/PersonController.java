@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
@@ -17,6 +17,7 @@ public class PersonController {
     private final PersonService personService;
 
     public PersonController(PersonService personService) {
+
         this.personService = personService;
     }
 
@@ -31,8 +32,8 @@ public class PersonController {
     @GetMapping("/create")
     @Secured("ROLE_CREATE_USER")
     ModelAndView create() {
-        ModelAndView modelAndView = new ModelAndView("people/create");
-        modelAndView.addObject("person", new Person());
+        ModelAndView modelAndView = new ModelAndView("users/create");
+        modelAndView.addAllObjects("person", new Person());
         return modelAndView;
     }
 

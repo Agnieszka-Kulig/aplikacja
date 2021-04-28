@@ -1,6 +1,6 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
-import edu.logintegra.springsecuritydemo.enums.AuthorityName;
+import BugTrackerr.enums.AuthorityName;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AuthorityRepository extends JpaRepository<Authority, Long> {

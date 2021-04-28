@@ -1,13 +1,13 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
-import edu.logintegra.springsecuritydemo.enums.AuthorityName;
+import BugTrackerr.enums.AuthorityName;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
-@NoArgsConstructor
+//@NoArgsConstructor
 @Getter
 public class Authority {
 
@@ -20,6 +20,11 @@ public class Authority {
     AuthorityName name;
 
     public Authority(AuthorityName name) {
+
         this.name = name;
+    }
+
+    public Authority() {
+
     }
 }

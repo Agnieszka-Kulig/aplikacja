@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo;
+package BugTrackerr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 
 @SpringBootApplication
 @EnableGlobalMethodSecurity(securedEnabled = true)
-public class SpringSecurityDemoApplication {
+public class BugTrackerr {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringSecurityDemoApplication.class, args);
+        SpringApplication.run(BugTrackerr.class, args);
     }
 }

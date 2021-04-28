@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo.auth;
+package BugTrackerr.authy;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -54,5 +54,6 @@ public class PersonService {
 
     List<Person> findAllUsers() {
         return personRepository.findAll();
+
     }
 }

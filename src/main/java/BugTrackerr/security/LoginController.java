@@ -1,4 +1,4 @@
-package edu.logintegra.springsecuritydemo.security;
+package BugTrackerr.security;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +8,7 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String index() {
-        return "security/login";
+
+    return "security/login";
     }
 }

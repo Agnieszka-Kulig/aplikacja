@@ -1,6 +1,6 @@
-package edu.logintegra.springsecuritydemo.config;
+package BugTrackerr.config;
 
-import edu.logintegra.springsecuritydemo.auth.CustomUserDetailsService;
+import BugTrackerr.authy.CustomUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -18,6 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
+
         return new BCryptPasswordEncoder();
     }
 
