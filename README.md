@@ -1,4 +1,4 @@
-# Spring Security Demo
+# Bug tracker
 
 ## Baza danych
 
